@@ -12,7 +12,7 @@ public class TriangelSquare {
 
         double p = (x1x2 + x2x3 + x3x1) / 2;
 
-        double square = Math.sqrt(p*(p-x1x2)*(p-x2x3)*(p-x3x1));
+        double square = Math.sqrt(p*(p-x1x2) * (p-x2x3)*(p-x3x1));
 
         double length = x1x2 + x2x3 + x3x1;
         System.out.println("Length of all sides is " + length);
