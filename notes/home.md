@@ -1,4 +1,4 @@
-##NOTES
+##Notes about git
 
 ####get changes from lector:
 
