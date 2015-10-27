@@ -16,3 +16,13 @@
 
  `git commit -m "%commit message%"`
  	-creates commit from index with %commit message%
+
+#### Synching with origin
+	`git pull`
+		- gets commit from origin
+
+	`git push`
+		- pushes local commits to origin
+
+	`git fetch`
+		- gets commits from origin but does not apply them to working folder
