@@ -26,3 +26,7 @@
 
 	`git fetch`
 		- gets commits from origin but does not apply them to working folder
+
+#### Solving conflicts
+	`git mergetool`
+		- calls mergetool (i.g. kdiff) to solve conflicts between commit histories
