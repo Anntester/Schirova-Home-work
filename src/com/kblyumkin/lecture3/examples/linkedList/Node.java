@@ -1,6 +1,6 @@
 package com.kblyumkin.lecture3.examples.linkedList;
 
-public class Node {
+public class Node{
     private int value;
     private Node next;
 
