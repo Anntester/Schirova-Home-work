@@ -7,7 +7,7 @@ public class User implements Cloneable, Serializable {
     private String name;
     private String lastName;
     private int age;
-    private int[] salary;
+    private transient int[] salary;
 
     public String getName() {
         return name;
