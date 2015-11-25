@@ -145,14 +145,14 @@ public class ClassComparatorUtilsTest {
         person.setResident(true);
         person.setAddress(address);
         person.setParents(parents);
-        person.setSpouse(anotherPerson);
+        //person.setSpouse(anotherPerson);
         anotherPerson.setName("John");
         anotherPerson.setLastName("Smith");
         anotherPerson.setAge(25);
         anotherPerson.setResident(true);
         anotherPerson.setAddress(anotherAddress);
         anotherPerson.setParents(parents);
-        anotherPerson.setSpouse(person);
+        //anotherPerson.setSpouse(person);
 
         //When
         boolean result = ClassComparatorUtils.isAllFieldsAreEquals(person, anotherPerson);
