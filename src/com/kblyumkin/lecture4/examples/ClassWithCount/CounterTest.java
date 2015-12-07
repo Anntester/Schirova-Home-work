@@ -1,4 +1,4 @@
-package com.kblyumkin.lecture4.examples.ClassWithCount;
+package com.kblyumkin.lecture4.examples.classwithcount;
 
 public class CounterTest {
     public static void main(String[] args) throws IllegalAccessException, InstantiationException {

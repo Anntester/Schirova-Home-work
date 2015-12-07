@@ -1,4 +1,4 @@
-package com.kblyumkin.lecture4.examples.ClassWithCount;
+package com.kblyumkin.lecture4.examples.classwithcount;
 
 public class ClassWithCount {
     static int counter = 0;

@@ -7,7 +7,7 @@ public class MyArrays {
     private MyArrays() {}
 
     public static <T> List<T> asList(T...args) {
-        List<T> result =  new LinkedList();
+        List<T> result =  new LinkedList<>();
         for (T arg : args) {
             result.add(arg);
         }
